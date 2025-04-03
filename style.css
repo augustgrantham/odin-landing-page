@@ -10,27 +10,59 @@ header {
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 900;
     margin:0;
+    display:flex;
 }
-
+.headerLogo {
+    font-weight: 900;
+    margin:10px;
+    margin-right: auto;
+    margin-left:10%;
+}
 ul {
     color:#E5E7EB;
     font-size: 18px;
     font-weight: normal;
+    display: flex;
+    margin:10px;
+    margin-right:10%;
+    gap:15px;
+}
+li {
+    list-style: none;
 }
 .hero {
     background-color: #1F2937;
-    margin:0
+    padding: 5%;
+    font-size: 48px;
+    justify-content: center;
+    display: flex;
+
+}
+.heroInfo {
+    color: #F9FAF8;
+    font-weight: 900;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
 .heroImage {
     color:#ffffff; 
-    background-color:#aeb0b5;
+    background-color:#97999e;
     font-weight: 500;
+    border-radius: 9%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    
 }
 .heroSecondaryText {
-    color:#E5E7EB
-    
+    color:#E5E7EB;
+    font-weight: 500;
+    font-size: 18px;
 }
 button {
     background-color: #3882F6;
@@ -42,28 +74,83 @@ button {
     padding: 8px;
     width:110px;
 }
-
+.info {
+    margin:50px;
+}
 .infoHeader {
     color:#1F2937;
     font-weight: 900;
     font-size: 36px;
+    justify-content: center;
+    display: flex;
+}
+.infoCardContainer {
+    display: flex;
+    margin-top:30px;
+    gap:50px;
+    justify-content: center;
+}
+.infoCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:120px;
+    text-align: center;
+    font-size:12px
+}
+.infoBox {
+    border: 3.3px solid #3882F6;
+    border-radius: 9%;
+    height:120px;
+    width:120px;
+    margin-bottom: 5px;;
 }
 .quoteRow {
     background-color: #E5E7EB;
+    flex-wrap: wrap;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.quoteBox {
+    margin:70px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;;
 }
 .quote {
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
+    font-style: italic;
+    font-weight: 300;
+    margin:0;
+    height: 250px;
 }
 .citation {
     font-weight: bold;
+    margin-left:auto;
+    margin-right:50px;
+    margin-top: 0;
 }
 .callToAction {
     background-color: #3882F6;
     padding:30px;
-    margin:50px;
+    margin:80px;
     color: #F9FAF8;
+    
+}
+.signupCard {
+    display: flex;
+    justify-content: center;
+}
+.signupText {
+    margin-right: auto;
+    margin-left: 20px;
+}
+.signupButton {
+    margin-right:20px;
 }
 .signupHeader {
     font-weight: 900;
@@ -76,4 +163,7 @@ footer {
     display: flex;
     margin-top:auto;
     color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding:40px
 }
