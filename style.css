@@ -139,7 +139,7 @@ button {
     padding:30px;
     margin:80px;
     color: #F9FAF8;
-    
+    border-radius:9px;
 }
 .signupCard {
     display: flex;
